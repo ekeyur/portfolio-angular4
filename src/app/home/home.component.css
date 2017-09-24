@@ -1,0 +1,31 @@
+.name {
+    letter-spacing: 1em;
+    color: #00254c;
+    font-size: 3em;
+}
+
+.title {
+    color: rgba(238, 178, 17,.8);
+    letter-spacing: 6px;
+    font-size: 2em;
+}   
+
+.image {
+    border-radius: 100px;
+    max-width: 175px;
+    max-height: 175px;
+}
+
+.center {
+    text-align: center;
+}
+
+.text-container{
+    max-width: 50vw;
+    border: 1px solid #00254c;
+    padding: 30px;
+    border-radius: 5px;
+
+    text-align: justify;
+    text-justify: inter-word;
+}

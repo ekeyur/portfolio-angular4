@@ -1,0 +1,17 @@
+.header-item {
+  color: #545454;
+  /* margin-right: 1vh; */
+  font-size: 20px;
+  padding: 10px;
+  border: 2px solid #00254c;
+  border-radius: 2px;
+}
+
+.header{
+  margin-right: 10px;
+}
+
+.header-item:focus, .header-item-text:focus{
+  outline: none;
+}
+

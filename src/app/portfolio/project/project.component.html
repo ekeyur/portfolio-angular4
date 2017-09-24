@@ -1,0 +1,34 @@
+<div [@itemAnim] 
+    class="height project-div" 
+    fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="4%">
+    <div fxLayoutAlign="center center" 
+            fxLayoutGap="5%" fxWrap="wrap" 
+            fxLayout.xs="column" 
+            fxLayout.sm="column">
+        <a href="{{project.websiteUrl}}" 
+            target="_blank">
+            <img [src]="project.imageUrl" alt="{{project.imageUrl}}">
+        </a>
+    </div>
+    <div fxLayoutGap="15%" fxLayout="row">
+        <a class="project-name type-writer"
+           href="{{project.websiteUrl}}"
+           target="_blank">{{ project.project_name}}
+        </a> 
+        <a href="{{project.githubUrl}}">
+            <i class="fa fa-github-square github-logo"></i>
+        </a>
+    </div>
+    <div class="project-description open-sans">
+        <span>{{ project.description }}</span>
+    </div>
+    <div fxLayout="row" 
+        fxLayoutWrap="wrap" 
+        fxLayoutAlign="center center">
+        <div appHighlight class="stack open-sans" 
+             *ngFor="let stack of project.stacks">{{stack}}
+        </div>
+    </div>      
+</div>
+
+

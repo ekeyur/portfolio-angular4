@@ -1,0 +1,26 @@
+<div class="portfolio height" fxLayout="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutGap=".7%">        
+    <div class="height"
+            fxFlex="3 3 auto" 
+            fxLayout="column" 
+            fxWrap="wrap"
+            fxLayout.sm="row"
+            fxLayoutGap="2%"
+            fxLayoutAlign="space-around space-around">
+        <div class="project-links type-writer" 
+            fxFlex="1 1 auto" 
+            fxLayout="row"
+            appHighlight
+            [@listAnim]
+            fxLayoutAlign="center center"
+            *ngFor="let project of projects; let i=index"
+             [routerLink] = "['/portfolio', i ]"
+             routerLinkActive = "active"
+            >
+            {{project.project_name}}     
+        </div>
+    </div>
+    <div class="project-container height" fxFlex="75%">
+        <router-outlet></router-outlet>  
+    </div>  
+</div>
+

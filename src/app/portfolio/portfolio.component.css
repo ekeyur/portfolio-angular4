@@ -1,0 +1,16 @@
+.portfolio {
+    padding: .5%;
+}
+
+.project-container {
+    background-color:  white;
+}
+
+
+.project-links{
+    background-color: rgba(238, 178, 17,.7);
+    color: #00254c;
+    font-size: 1.5em;
+    cursor: pointer;
+    /* color:white; */
+}

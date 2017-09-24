@@ -1,0 +1,19 @@
+<div class=" header height"
+    fxLayoutWrap 
+    fxLayout="row" 
+    fxLayoutGap="2%" 
+    fxLayoutAlign="flex-end center">
+    <div 
+        appHighlight 
+        class="header-item"
+        *ngFor="let header of headers"
+        >
+        <div
+        [routerLink]="header"
+        routerLinkActive="active"
+        class="pointer header-item-text type-writer"
+        >
+             {{ header }}
+        </div>
+    </div>
+</div>
