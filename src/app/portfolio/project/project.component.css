@@ -55,20 +55,45 @@ img:hover {
 @media screen and (max-width: 600px) {
     img {
         border-radius: 100px;
-        width: 100px;
-        height: 100px;
+        width: 85px;
+        height: 85px;
     }
     .project-name{
         font-size: 1.4em;
     }
     .github-logo{
        
-        font-size: 25px;
+        font-size: 20px;
     }
     .stack{
-        font-size: 1em;
+        font-size: .75em;
         padding: 5px;
         margin: 1%;
     }
-    
+    .project-description {
+        font-size: .8em;
+    }
+    }
+
+    @media screen and (max-width: 320px) {
+        img {
+            border-radius: 100px;
+            width: 50px;
+            height: 50px;
+        }
+        .project-name{
+            font-size: 1em;
+        }
+        .github-logo{
+           
+            font-size: 15px;
+        }
+        .stack{
+            font-size: .65em;
+            padding: 5px;
+            margin: 1%;
+        }
+        .project-description {
+            font-size: .5em;
+        }
     }

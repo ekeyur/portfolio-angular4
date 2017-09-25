@@ -31,7 +31,7 @@ import {  trigger, style, transition,
   ]
 })
 export class PortfolioComponent implements OnInit, OnDestroy {
-  projects : Project[];
+  projects: Project[] = [];
   constructor(private portfolioService: PortfolioService
              ) { }          
 

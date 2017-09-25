@@ -1,3 +1,4 @@
+import { Project } from './../project.model';
 import { Component, OnInit } from '@angular/core';
 import { trigger, style, transition, animate, group } from '@angular/animations';
 
@@ -16,10 +17,11 @@ import { trigger, style, transition, animate, group } from '@angular/animations'
 })
 export class ProjectStartComponent implements OnInit {
 
-  project: {};
+  project: Project;
 
   constructor() { 
     this.project = {
+      id           : 5,
       project_name : 'Portfolio',
       description  : 'In an attmpt to learn Angular4, I decided to redo my portfolio using Angular4. Click the links on the left to checkout my other projects.',
       websiteUrl   : 'http://ekeyur.com',

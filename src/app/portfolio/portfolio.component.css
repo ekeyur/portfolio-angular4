@@ -27,3 +27,19 @@
         padding: .3%;
     }
     }
+
+    @media screen and (max-width: 414px) {
+        .project-links{
+            
+            font-size: 1em;
+
+        }
+    }
+
+    @media screen and (max-width: 320px) {
+        .project-links{
+            
+            font-size: .7em;
+
+        }
+    }

@@ -45,15 +45,25 @@ i:hover {
         font-size: 1em;
         }
         .text{
-            padding: 20px;
-            font-size: 1em;
-            }
+        padding: 20px;
+        font-size: 1em;
+        }
 
     }
 
     @media screen and (max-width: 500px) {
         .text{
-            font-size: .8em;
-            padding: 10px;
+            font-size: 7.5px;
+            padding: 0;
             }
+        i {
+            font-size: 3em;
+            color: #00254c;
+        } 
+        .text-container{
+            padding: 15px;
+            font-size: .9em;
+            text-align: justify;
+            text-justify: inter-word;
+            }       
     }

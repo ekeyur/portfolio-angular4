@@ -5,14 +5,14 @@ fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="4%">
         fxLayoutGap="5%" fxWrap="wrap" 
         fxLayout.xs="column" 
         fxLayout.sm="column">
-    <a href="{{project.websiteUrl}}" 
+    <a href="{{ project.websiteUrl }}" 
         target="_blank">
         <img [src]="project.imageUrl" alt="{{project.imageUrl}}">
     </a>
 </div>
 <div fxLayoutGap="15%" fxLayout="row">
     <a class="project-name type-writer"
-       href="{{project.websiteUrl}}"
+       href="{{ project.websiteUrl }}"
        target="_blank">{{ project.project_name}}
     </a> 
     <a href="{{project.githubUrl}}">

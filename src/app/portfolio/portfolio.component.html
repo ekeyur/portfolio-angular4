@@ -11,10 +11,8 @@
             appHighlight
             [@listAnim]
             fxLayoutAlign="center center"
-            routerLinkActive="activelink"
             *ngFor="let project of projects; let i=index"
-             [routerLink] = "['/portfolio', i ]"
-            >
+             [routerLink] = "['/portfolio', i ]">
             {{project.project_name}}     
         </span>
     </div>
