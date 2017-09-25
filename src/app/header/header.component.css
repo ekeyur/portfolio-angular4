@@ -1,5 +1,5 @@
 .header-item {
-  color: #545454;
+  color: #00254c;
   /* margin-right: 1vh; */
   font-size: 20px;
   padding: 10px;
@@ -8,7 +8,7 @@
 }
 
 .header{
-  margin-right: 10px;
+  margin-right: 2%;
 }
 
 .header-item:focus, .header-item-text:focus{

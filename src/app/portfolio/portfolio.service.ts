@@ -41,6 +41,15 @@ export class PortfolioService {
       githubUrl    : 'https://github.com/DigitalCrafts-September-2016-Cohort/apollo_grillber',
       stacks       : ['Python', 'PostGreSQL', 'Flask', 'Jinja2', 'BootStrap']
     },
+    { 
+      id           : 4,
+      project_name : 'Portfolio',
+      description  : 'In an attmpt to learn Angular4, I decided to redo my portfolio using Angular4. Click the links on the left to checkout my other projects.',
+      websiteUrl   : 'http://ekeyur.com',
+      imageUrl     : '../../assets/images/portfolio.png',
+      githubUrl    : 'https://github.com/ekeyur/portfolio-angular4',
+      stacks       : ['Angular4', 'FxLayout', 'CSS3']
+    }
   ]
 
   getProject(id: number) {

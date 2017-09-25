@@ -4,6 +4,9 @@ img {
     height: 150px;
 }
 
+img:hover {
+  filter: grayscale(100%);
+}
 .project-header {
     display:flex; justify-content: space-around; flex-direction: row; align-items: center;
 }
@@ -48,3 +51,24 @@ img {
 /* a{
     text-decoration: none;
 } */
+
+@media screen and (max-width: 600px) {
+    img {
+        border-radius: 100px;
+        width: 100px;
+        height: 100px;
+    }
+    .project-name{
+        font-size: 1.4em;
+    }
+    .github-logo{
+       
+        font-size: 25px;
+    }
+    .stack{
+        font-size: 1em;
+        padding: 5px;
+        margin: 1%;
+    }
+    
+    }

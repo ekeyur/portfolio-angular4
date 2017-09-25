@@ -12,5 +12,18 @@
     color: #00254c;
     font-size: 1.5em;
     cursor: pointer;
-    /* color:white; */
 }
+
+.project-links:focus{
+    outline: none;
+}
+
+
+@media screen and (max-width: 960px) {
+    .project-links{
+        font-size: 1.2em;
+    }
+    .portfolio {
+        padding: .3%;
+    }
+    }

@@ -46,3 +46,8 @@ body {
 .height {
   height: 100%;
 }
+
+.activelink{
+  color:rgba(238, 178, 17,.7);
+  background-color: #00254c;
+}

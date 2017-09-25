@@ -1,0 +1,49 @@
+img {
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+}
+
+img:hover {
+  filter: grayscale(100%);
+}
+.project-header {
+    display:flex; justify-content: space-around; flex-direction: row; align-items: center;
+}
+
+.github-logo{
+    color: #00254c;
+    font-size: 40px;
+}
+
+.github-logo:hover {
+    color: rgba(238, 178, 17,.7);
+}
+
+.project-name{
+    font-size: 3em;
+    color: #00254c;
+    text-decoration: none;
+}
+
+.project-name:hover {
+    text-decoration: underline;
+    text-decoration-color: rgba(238, 178, 17,.7);
+}
+
+.project-description {
+    margin-right: 20%;
+    margin-left: 20%;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.3 em;
+}
+
+.stack{
+    font-size: 1.5em;
+    color: #00254c;
+    background-color: rgba(238, 178, 17,.7);
+    padding: 5px;
+    border: 2px solid #00254c;
+    margin: 1%;
+}
