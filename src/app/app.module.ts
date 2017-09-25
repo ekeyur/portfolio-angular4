@@ -21,6 +21,7 @@ import { HighlightDirective } from './highlight.directive';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ResumeComponent } from './resume/resume.component';
 import { PdfViewerComponent } from 'ng2-pdf-viewer';
+import { ProfileComponent } from './resume/profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { PdfViewerComponent } from 'ng2-pdf-viewer';
     ProjectStartComponent,
     HighlightDirective,
     ResumeComponent,
-    PdfViewerComponent
+    PdfViewerComponent,
+    ProfileComponent
   ],
   imports: [
     FlexLayoutModule,
