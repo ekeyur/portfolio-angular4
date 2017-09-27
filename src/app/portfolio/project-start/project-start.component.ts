@@ -11,7 +11,7 @@ import { trigger, style, transition, animate, group } from '@angular/animations'
       transition('* => *', [
         style({transform: 'translateX(100%)'}),
         animate(700)
-      ])     
+      ])
     ])
   ]
 })
@@ -19,11 +19,12 @@ export class ProjectStartComponent implements OnInit {
 
   project: Project;
 
-  constructor() { 
+  constructor() {
     this.project = {
       id           : 5,
       project_name : 'Portfolio',
-      description  : 'In an attmpt to learn Angular4, I decided to redo my portfolio using Angular4. Click the links on the left to checkout my other projects.',
+      description  : `In an attmpt to learn Angular4, I decided to redo my portfolio using
+                      Angular4. Click the links on the left to checkout my other projects.`,
       websiteUrl   : 'http://ekeyur.com',
       imageUrl     : '../../assets/images/portfolio.png',
       githubUrl    : 'https://github.com/ekeyur/portfolio-angular4',

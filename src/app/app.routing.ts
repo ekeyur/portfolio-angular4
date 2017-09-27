@@ -11,7 +11,7 @@ import { Routes } from '@angular/router';
 
 const routes: Routes = [
     { path: '', redirectTo: 'home', pathMatch: 'full' },
-    { path: 'home', component: HomeComponent, data:{ state: 'home'} },
+    { path: 'home', component: HomeComponent, data: { state: 'home'} },
     { path: 'about', component: AboutComponent },
     { path: 'skills', component: SkillsComponent },
     { path: 'resume', component: ResumeComponent, } ,
@@ -21,7 +21,6 @@ const routes: Routes = [
     ]},
     { path: '**', component: HomeComponent }
    ];
- 
-   export const AppRouting = RouterModule.forRoot(routes, { 
-    
-  });   
+
+   export const AppRouting = RouterModule.forRoot(routes, {
+  });
