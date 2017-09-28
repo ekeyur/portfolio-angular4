@@ -50,7 +50,7 @@ export class PortfolioService {
     },
     {
       id           : 4,
-      project_name : 'Recipe Book',
+      project_name : 'RecipeBook',
       description  : `An online site to collect and access different recipes. It also includes
                       functionality to push items to the shopping cart from the recipe.`,
       websiteUrl   : 'https://ekeyur.github.io/recipe-book-angular4/recipe',
@@ -65,7 +65,7 @@ export class PortfolioService {
                       Angular4. Click the links on the left to checkout my other projects.`,
       websiteUrl   : 'http://ekeyur.com',
       imageUrl     : '../../assets/images/portfolio.png',
-      githubUrl    : 'https://github.com/ekeyur/portfolio-angular4',
+      githubUrl    : 'https://github.com/ekeyur/recipe-book-angular4',
       stacks       : ['Angular4', 'FxLayout', 'CSS3']
     }
   ];
