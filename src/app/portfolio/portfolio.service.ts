@@ -56,7 +56,7 @@ export class PortfolioService {
       websiteUrl   : 'https://ekeyur.github.io/recipe-book-angular4/recipe',
       imageUrl     : '../../assets/images/recipe-1.png',
       githubUrl    : 'https://github.com/ekeyur/portfolio-angular4',
-      stacks       : ['Angular4', 'BootStrap', 'CSS3', 'Firebase', 'Authentication']
+      stacks       : ['Angular4', 'BootStrap', 'Firebase', 'Authentication']
     },
     {
       id           : 5,
