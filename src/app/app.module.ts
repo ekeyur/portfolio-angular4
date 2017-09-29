@@ -5,7 +5,7 @@ import { FlexLayoutModule} from '@angular/flex-layout';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import {Routes, RouterModule} from "@angular/router";
+import {Routes, RouterModule} from '@angular/router';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
@@ -19,9 +19,7 @@ import { HighlightDirective } from './highlight.directive';
 
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ResumeComponent } from './resume/resume.component';
 import { PdfViewerComponent } from 'ng2-pdf-viewer';
-import { ProfileComponent } from './resume/profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -35,9 +33,7 @@ import { ProfileComponent } from './resume/profile/profile.component';
     ProjectComponent,
     ProjectStartComponent,
     HighlightDirective,
-    ResumeComponent,
     PdfViewerComponent,
-    ProfileComponent
   ],
   imports: [
     FlexLayoutModule,
